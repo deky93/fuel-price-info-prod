@@ -1,0 +1,21 @@
+<div class="back-to-top-container" *ngIf="isButtonVisible">
+    <div class="progress-circle">
+      <svg class="circle" viewBox="0 0 36 36">
+        <path
+          class="circle-bg"
+          d="M18 2.0845
+             a 15.9155 15.9155 0 0 1 0 31.831
+             a 15.9155 15.9155 0 0 1 0 -31.831"
+        ></path>
+        <path
+          class="circle-progress"
+          [attr.stroke-dasharray]="scrollProgress + ', 100'"
+          d="M18 2.0845
+             a 15.9155 15.9155 0 0 1 0 31.831
+             a 15.9155 15.9155 0 0 1 0 -31.831"
+        ></path>
+      </svg>
+      <button class="back-to-top" (click)="scrollToTop()">⬆</button>
+    </div>
+  </div>
+  

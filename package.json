@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod":"ng build --configuration=production --base-href=/fuel-price-info-prod/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:fuel-app": "node dist/fuel-app/server/server.mjs"
