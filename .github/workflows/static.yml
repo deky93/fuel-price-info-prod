@@ -40,7 +40,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: github-option-three-app/dist/browser
+          folder: fuel-price-info-prod/dist/browser
           branch: prod  
           token: ${{ secrets.GH_TOKEN }}
 
