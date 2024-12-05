@@ -21,7 +21,7 @@ jobs:
         # working-directory: fuel-app
         run: npm install
 
-         name: Build Angular App
+      - name: Build Angular App
           run: npm run build
 
       - name: Deploy to GitHub Pages
