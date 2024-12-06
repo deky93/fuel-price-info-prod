@@ -29,9 +29,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Deploying to git hub
 
-ng build --base-href "https://deky93.github.io/fuel-price-info-prod/"
+ng build --configuration production --base-href "https://deky93.github.io/fuel-price-info/"
 
-npx angular-cli-ghpages --dir=dist/browser
+<!-- npx angular-cli-ghpages --dir=dist/browser
 
 finished
-git remote add origin "https://deky93.github.io/fuel-price-info-prod/"
+git remote add origin "https://deky93.github.io/fuel-price-info-prod/" -->
